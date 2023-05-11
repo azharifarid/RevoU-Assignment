@@ -1,0 +1,247 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 1em 2em;
+}
+
+.logo {
+    font-family: 'Segoe UI';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.nav {
+    display: flex;
+    padding: 5px;
+    border: 1px solid black; ;
+    border-radius: 5px;
+
+}
+
+.nav-item {
+    min-width: 90px;
+    text-align: center;
+    padding: 0.2em 0.1em;
+    font-family: 'Tahoma';
+    
+}
+
+.nav-center {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.banner > h1 {
+    font-family: 'Lucida Sans';
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+
+.banner > h2 {
+    font-family: 'Lucida Sans';
+    font-size: 35px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.banner > h3 {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.main-form {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.element {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-element {
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    
+}
+
+h2#testimoni {
+    font-family: Proxima Nova;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 4em;
+}
+
+h3#namatesti {
+    font-family: Proxima Nova;
+    text-align: center;
+    margin-left: 6em;
+    margin-bottom: 1px;
+}
+
+h3#jobtesti {
+    font-family: Proxima Nova;
+    text-align: center;
+    margin-left: 6em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+h4#profile {
+    font-family: Proxima Nova;
+    font-size: 1.3em;
+    text-align: center;
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h4#kelebihan {
+    font-family: Proxima Nova;
+    font-size: 1em;
+    line-height: 1em;
+    margin-left: 12em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    text-align: justify;
+
+
+}
+
+.right-element {
+    width: 50%;
+    display: block;
+    
+}
+
+
+.form {
+    width: 400px;
+    height: 700px;
+    margin-left: 120px;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-style: inherit;
+}
+
+.form > h2 {
+    font-family: Proxima Nova;
+    text-align: center;
+    border-bottom: 1px;
+    margin-bottom: 0.1em;
+}
+
+.form > p {
+    font-family: Proxima Nova;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 4em;
+
+} 
+
+.form > label {
+    font-family: Proxima Nova;
+    font-size: 17px;
+}
+
+.form > input {
+    font: Proxima Nova;
+    width: 400px;
+    height: 50px;
+    padding: 1em;
+    border-radius: 0.5em;
+    border-color: lightgray;
+    margin: 20 0 20 0;
+    cursor: pointer;
+
+}
+
+.form > select {
+    font: Proxima Nova;
+    width: 400px;
+    height: 50px;
+    padding: 1em;
+    border-radius: 0.5em;
+    border-color: lightgray;
+    margin: 20 0 20 0;
+    cursor: pointer;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    margin-top: 7em;
+    margin-left: 19em;
+    padding: 1em;
+    font-family: Proxima Nova;
+    border-radius:  0.5em;
+    background: rgb(5, 100, 80);
+    cursor: pointer;
+}
+
+#our-packages {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.column {
+    font-family: Proxima Nova;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+
+.col-sm {
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+.infocontact {
+    font-family: Proxima Nova;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#contact {
+    font-family: Proxima Nova;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer {
+    font-family: Proxima Nova;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 5em;
+    text-align: center;
+    
+}
